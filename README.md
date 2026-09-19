@@ -1,4 +1,4 @@
-# Convo — Real-Time Chat Application
+# Convo
 
 A full-stack MERN chat application with real-time messaging, friend requests, and contact management. Built as a portfolio project demonstrating production-grade authentication, WebSocket communication, and cloud deployment.
 
