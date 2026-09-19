@@ -7,7 +7,6 @@ const initSocket = (server) => {
     io = new Server(server, { //the webSocket server attaches to the old http server
         cors: {
             origin: process.env.CLIENT_URL,
-            credentials: true
         }
     });
 
