@@ -1,5 +1,5 @@
 import API from './axios'
-
-export const findUsers = async (query) => {
-    return await API.post("/user/find-user", { query });
+//inputs for LLM
+export const findUsers = async (que) => {
+    return await API.post("/user/find-user", { que });
 };
