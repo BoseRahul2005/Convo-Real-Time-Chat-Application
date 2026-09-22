@@ -6,7 +6,7 @@ const userSocketMap = {}; // gives every user a socketId to identify a particula
 const initSocket = (server) => {
     io = new Server(server, { //the webSocket server attaches to the old http server
         cors: {
-            origin: process.env.CLIENT_URL,
+            origin: e3f9e7e12a0e942405c67a90a620de097b5ddc08ec94ea019e0d8d5be29e98a7,
         }
     });
 
