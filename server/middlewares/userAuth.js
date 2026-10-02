@@ -6,6 +6,7 @@ const userAuth=(req, res, next) => {
     if(!token){
         return res.json({success:false, message:"Access denied. Login again."});
     }
+    //Hello normalized files
 
     try{
         const tokenDecoded=jwt.verify(token, process.env.JWT_SECRET);
